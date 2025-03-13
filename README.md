@@ -1,6 +1,6 @@
 # NEXURA Blockchain Node
 
-This project aims to provide installation, running, and maintenance capabilities of **Nexurachain validator node** for potential and existing Nexurachain backers. The consensus structure of this chain is Delegated proof of stake "DPos" and is governed by the symbiosis of XURA's implementation of go-ethereum and our system contracts [https://github.com/MGIXChain/System-Contracts/tree/main]. This repository has multiple release candidates inline so we recommend checking for updates for better functions and stability.
+This project aims to provide installation, running, and maintenance capabilities of **Nexurachain validator node** for potential and existing Nexurachain backers. The consensus structure of this chain is Delegated proof of stake "DPos" and is governed by the symbiosis of XURA's implementation of go-ethereum and our system contracts [https://github.com/Nexurachain/System-Contracts/tree/main]. This repository has multiple release candidates inline so we recommend checking for updates for better functions and stability.
 
 ## System Requirements
 
@@ -56,7 +56,7 @@ Skip the above commands if you have already updated the system and installed the
 Connect again to your server after reboot
 ```bash
   sudo -i
-  git clone https://github.com/MGIXChain/core-blockchain.git
+  git clone https://github.com/Nexurachain/core-blockchain.git
   cd core-blockchain
   ./node-setup.sh --validator 1
 ```
